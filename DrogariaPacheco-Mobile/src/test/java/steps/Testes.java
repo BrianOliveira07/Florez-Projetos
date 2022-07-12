@@ -37,7 +37,7 @@ public class Testes extends Metodos {
 		driver.findElement(getCampoPesquisar()).sendKeys("Benegrip");
 		driver.findElement(getBotaoEnviar()).click();
 		validarTexto("Resultado De Busca: Benegrip", getValidarPesquisa1());
-		estabilizarApp(3000);
+		estabilizarApp(4000);
 		tirarPrint("Pesquisa de remédio por nome");
 
 	}
@@ -51,7 +51,7 @@ public class Testes extends Metodos {
 		driver.findElement(getCampoPesquisar()).sendKeys("Genéricos");
 		driver.findElement(getBotaoEnviar()).click();
 		validarTexto("Resultado De Busca: Genéricos", getValidarPesquisa1());
-		estabilizarApp(3000);
+		estabilizarApp(4000);
 		tirarPrint("Apenas busca de genéricos");
 
 	}
@@ -65,7 +65,7 @@ public class Testes extends Metodos {
 		driver.findElement(getCampoPesquisar()).sendKeys("Colgate");
 		driver.findElement(getBotaoEnviar()).click();
 		validarTexto("Resultado De Busca: Colgate", getValidarPesquisa1());
-		estabilizarApp(3000);
+		estabilizarApp(4000);
 		tirarPrint("Busca por fabricante");
 
 	}
@@ -79,7 +79,7 @@ public class Testes extends Metodos {
 		driver.findElement(getCampoPesquisar()).sendKeys("Fralda");
 		driver.findElement(getBotaoEnviar()).click();
 		validarTexto("Resultado De Busca: Fralda", getValidarPesquisa1());
-		estabilizarApp(3000);
+		estabilizarApp(4000);
 		tirarPrint("Pesquisa de fralda");
 
 	}
@@ -93,7 +93,7 @@ public class Testes extends Metodos {
 		driver.findElement(getCampoPesquisar()).sendKeys("Vitamina C");
 		driver.findElement(getBotaoEnviar()).click();
 		validarTexto("Resultado De Busca: Vitamina C", getValidarPesquisa1());
-		estabilizarApp(3000);
+		estabilizarApp(4000);
 		tirarPrint("Pesquisa de Vitamina C");
 
 	}
@@ -107,7 +107,7 @@ public class Testes extends Metodos {
 		driver.findElement(getCampoPesquisar()).sendKeys("Soro Fisiológico");
 		driver.findElement(getBotaoEnviar()).click();
 		validarTexto("Resultado De Busca: Soro Fisiológico", getValidarPesquisa2());
-		estabilizarApp(3000);
+		estabilizarApp(4000);
 		tirarPrint("Pesquisa de Soro Fisiológico");
 
 	}
@@ -118,10 +118,10 @@ public class Testes extends Metodos {
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.findElement(getCookie()).click();
 		driver.findElement(getCampoPesquisar()).click();
-		driver.findElement(getCampoPesquisar()).sendKeys("Sabonete Líquido");
+		driver.findElement(getCampoPesquisar()).sendKeys("Sabonete líquido");
 		driver.findElement(getBotaoEnviar()).click();
 		validarTexto("Resultado De Busca: Sabonete Líquido", getValidarPesquisa2());
-		estabilizarApp(3000);
+		estabilizarApp(4000);
 		tirarPrint("Pesquisa de Sabonete Líquido");
 
 	}
@@ -135,7 +135,7 @@ public class Testes extends Metodos {
 		driver.findElement(getCampoPesquisar()).sendKeys("Sabonete");
 		driver.findElement(getBotaoEnviar()).click();
 		validarTexto("Resultado De Busca: Sabonete", getValidarPesquisa1());
-		estabilizarApp(3000);
+		estabilizarApp(4000);
 		tirarPrint("Pesquisa de Sabonete");
 
 	}
