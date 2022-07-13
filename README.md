@@ -22,6 +22,7 @@ Não esqueça de colocar o java na variável de ambiente.
 * Colocar o caminho do arquivo apk na sua IDE
 * Editar o udid com o nome do seu dispositivo
 * Para descobrir o udid do seu dispositivo, é só abrir o promt de comando e escrever adb devices 
+* Abrir o projeto na IDE Eclipse 
 * Abrir a classe Testes
 * Clicar em Run Executa (JUnit Test)
 
