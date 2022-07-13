@@ -12,7 +12,7 @@
 
 ## Observação
 
-Não esqueça de colocar o java na variável de ambiente.
+Não esqueça de colocar o Java na variável de ambiente.
 * [Variáveis de ambiente](https://www.youtube.com/watch?v=ZsOq4xoTid0)
 
 ## Como Executar Aplicação:
@@ -22,16 +22,16 @@ Não esqueça de colocar o java na variável de ambiente.
 * Colocar o caminho do arquivo apk na sua IDE
 * Editar o udid com o nome do seu dispositivo
 * Para descobrir o udid do seu dispositivo, é só abrir o promt de comando e escrever adb devices 
-* Abrir o projeto na IDE Eclipse 
-* Abrir a classe Testes
+* Abrir o Projeto na IDE Eclipse 
+* Abrir a Classe Testes
 * Clicar em Run Executa (JUnit Test)
 
 # DrogariaPacheco-Web
 
 ## Como Executar Aplicação:
 
-* Abrir o projeto na IDE Eclipse 
-* Abrir a classe Executa
+* Abrir o Projeto na IDE Eclipse 
+* Abrir a Classe Executa
 * Clicar em Run Executa (JUnit Test)
 
 ## Pré Requisitos
