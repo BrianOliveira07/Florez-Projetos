@@ -12,7 +12,7 @@
 ## Observação
 
 Não esqueça de colocar o java na variável de ambiente.
-[Variáveis de ambiente](https://www.youtube.com/watch?v=ZsOq4xoTid0)
+* [Variáveis de ambiente](https://www.youtube.com/watch?v=ZsOq4xoTid0)
 
 ## Como Executar Aplicação:
 
