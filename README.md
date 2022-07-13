@@ -1,12 +1,13 @@
-# Florez-Projetos
+## Florez-Projetos
 
-## DrogariaPacheco-Mobile
+# DrogariaPacheco-Mobile
 
 ## Requisitos:
 
 * [Java JDK 8](http://www.oracle.com/technetwork/pt/java/javase/downloads/jdk8-downloads-2133151.html)
 * [Android Studio](https://developer.android.com/studio/index.html?hl=pt-br)
 * [Appium](http://appium.io/downloads.html)
+* [Appium Inspector](https://github.com/appium/appium-inspector/releases)
 * [Eclipse](https://www.eclipse.org/downloads/)
 
 ## Observação
@@ -24,7 +25,7 @@ Não esqueça de colocar o java na variável de ambiente.
 * Abrir a classe Testes
 * Clicar em Run Executa (JUnit Test)
 
-## DrogariaPacheco-Web
+# DrogariaPacheco-Web
 
 ## Como Executar Aplicação:
 
