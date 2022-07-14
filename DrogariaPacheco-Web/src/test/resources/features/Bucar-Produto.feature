@@ -70,11 +70,11 @@ Funcionalidade: Buscar Produto
     E tiro print "Pesquisa de Sabonete Líquido"
     Entao fecho navegador
 
-  Cenario: Validar pesquisa de Sabonete
+  Cenario: Validar pesquisa nao encontrada
     E que eu clique no campo de busca
-    E digite "Sabonete"
+    E digite "Xbox"
     Quando clicar em pesquisar
-    Entao valido a url "https://www.drogariaspacheco.com.br/pesquisa?q=Sabonete"
-    E valido texto "Resultado De Busca: Sabonete"
-    E tiro print "Pesquisa de Sabonete"
+    Entao valido a url "https://www.drogariaspacheco.com.br/pesquisa?q=Xbox"
+    E valido texto "Nenhum Resultado Encontrado!"
+    E tiro print "Pesquisa Não Encontrada"
     Entao fecho navegador
