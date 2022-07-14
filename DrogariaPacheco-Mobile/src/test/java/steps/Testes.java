@@ -127,16 +127,18 @@ public class Testes extends Metodos {
 	}
 
 	@Test
-	public void ct08_Validar_pesquisa_de_Sabonete() throws InterruptedException, IOException {
+	public void ct08_Validar_pesquisa_não_Encontrada() throws InterruptedException, IOException {
 
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.findElement(getCookie()).click();
 		driver.findElement(getCampoPesquisar()).click();
-		driver.findElement(getCampoPesquisar()).sendKeys("Sabonete");
+		driver.findElement(getCampoPesquisar()).sendKeys("Xbox");
 		driver.findElement(getBotaoEnviar()).click();
-		validarTexto("Resultado De Busca: Sabonete", getValidarPesquisa1());
+		validarTexto("Resultado De Busca: Xbox", getValidarPesquisa1());
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		validarTexto("Nenhum Resultado Encontrado!", getValidarPesquisa1());
 		estabilizarApp(4000);
-		tirarPrint("Pesquisa de Sabonete");
+		tirarPrint("Pesquisa não encontrada");
 
 	}
 
