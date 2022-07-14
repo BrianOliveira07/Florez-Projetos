@@ -34,7 +34,7 @@ Não esqueça de colocar o Java na variável de ambiente.
 * Abrir a Classe Executa
 * Clicar em Run Executa (JUnit Test)
 
-## Pré Requisitos
+## Pré Requisitos:
 
 * Java 8
 * Eclipse
