@@ -134,8 +134,7 @@ public class Testes extends Metodos {
 		driver.findElement(getCampoPesquisar()).click();
 		driver.findElement(getCampoPesquisar()).sendKeys("Xbox");
 		driver.findElement(getBotaoEnviar()).click();
-		validarTexto("Resultado De Busca: Xbox", getValidarPesquisa1());
-		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		estabilizarApp(2000);
 		validarTexto("Nenhum Resultado Encontrado!", getValidarPesquisa1());
 		estabilizarApp(4000);
 		tirarPrint("Pesquisa não encontrada");
