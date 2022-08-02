@@ -48,3 +48,5 @@ Caso não seja a mesma versão, sinta-se a vontade para modifica-lo acessando os
 * [Driver do navegador Edge](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/)
 
 Feito por Brian Oliveira [Acesse meu linkedin](https://www.linkedin.com/in/brian-oliveira-385356122/)
+
+[![Linkedin](https://img.shields.io/badge/-LinkedIn-595D60?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/nayaraquino//)](https://www.linkedin.com/in/brian-oliveira-385356122/)
