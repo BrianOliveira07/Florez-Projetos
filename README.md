@@ -20,6 +20,7 @@ Não esqueça de colocar o Java na variável de ambiente.
 * Ativar servidor Appium
 * [Baixar o apk](https://m.apkpure.com/br/drogarias-pacheco-ofertas-exclusivas-no-app/com.mob1st.drogariaspacheco)
 * Colocar o caminho do arquivo apk na sua IDE
+* Se utilizar o celular  físico, é necessário ativação do modo desenvolvedor "Depuração USB"
 * Editar o udid com o nome do seu dispositivo
 * Para descobrir o udid do seu dispositivo, é só abrir o promt de comando e escrever adb devices 
 * Abrir o Projeto na IDE Eclipse 
